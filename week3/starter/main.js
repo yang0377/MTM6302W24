@@ -45,7 +45,7 @@
 //Add the 'href' attribute to the 'continue reading...' hero link; https://imdac.github.io/mtm6302/
 
 
-//set the 'target' attribute of the her link to '_blank'
+//set the 'target' attribute of the link to '_blank'
 
 // console.log($heroCTA.getAttribute('class')); // text-white fw-bol
 // console.log($heroCTA.getAttribute('href')); // https://imdac.github.io/mtm6302/
