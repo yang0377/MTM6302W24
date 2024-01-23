@@ -8,8 +8,7 @@
 
 
 
-//Select an element by CSS selector. Target the first link inside the 'nav' element.
-
+//Select an element using a CSS selector. Target the first link within the 'nav' element.
 
 
 //Target all links in the nav element
@@ -24,24 +23,19 @@
 
 
 /*** Traversing the DOM  ***/
-//Return a HTMLCollection with the child elements of the main node
-// Returns the first child node(that is an element node) of main
-// Returns the next sibling element of main
+// Return all child elements of the main node
+// Return the first child node(that is an element node) of main
+// Return the next sibling element of main
 
 
 
 /*** Manipulating attributes */
-//getAttribute()
 //Obtain the href attribute of $navFirstOption
-
-
 
 //exception calling attributes as properties
 // console.log( $main.className )
-// console.log( $main.style);
-// console.log( $main.getAttribute('style'));
 
-//setAttribute()
+//setAttribute()    
 //Set the ID 'hero' on the first 'div' element inside the 'main' element.
 
 
@@ -75,7 +69,7 @@
 // console.log(element.classList)      // ["p-4 p-md-5 mb-4 rounded position-relative"]
 
 //Toggle class
-//Retreive the 'dark mode' button, and save it to $darkModeBtn const
+//Retreive the 'dark mode' button, and save it to $darkModeBtn
 
 // $darkModeBtn.addEventListener('click', function() {
     // toggle class here
